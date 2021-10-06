@@ -1,0 +1,31 @@
+body{
+    height: 100%;
+}
+
+h1{
+    user-select: none;
+}
+
+.md-editor{
+    height: 400000%;
+    width: 100%;
+    display: flex;
+}
+
+.left-side{
+    width: 50%;
+    font-size: 1.5rem;
+    outline: none;
+    background-color: #3E2C41;
+    color: #FFE6E6;
+    border: none;
+}
+
+.right-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    font-size: 1rem;
+    background-color: #261C2C;
+}
